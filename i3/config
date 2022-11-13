@@ -39,7 +39,7 @@ exec --no-startup-id nm-applet
 
 # greenclip for clipboard management
 exec greenclip daemon
-bindsym $mod+v exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme 'launchers/type-4/style-2'
+bindsym $mod+v exec rofi -modi "clipboard:greenclip print" -show clipboard -run-command '{cmd}' -theme 'themes/clipboard.rasi'
 
 # alttab is a small program that allows you to switch between windows using alt+tab.
 exec alttab
@@ -79,7 +79,7 @@ exec --no-startup-id feh --bg-fill /home/sans/Pictures/prism-background3.png
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+d exec --no-startup-id rofi -show drun -theme 'launchers/type-2/style-4'
+bindsym $mod+d exec --no-startup-id rofi -show drun -theme 'themes/launcher.rasi'
 # A more modern dmenu replacement is rofi:
 # bindcode $mod+40 exec "rofi -modi drun,run -show drun"
 # There also is i3-dmenu-desktop which only displays applications shipping a
@@ -109,6 +109,9 @@ bindsym $mod+Shift+Left move left
 bindsym $mod+Shift+Down move down
 bindsym $mod+Shift+Up move up
 bindsym $mod+Shift+Right move right
+
+# colour scheme
+client.focused #4c7899 #cba6ff #000000 #2e9ef4  #cba6ff
 
 # split in horizontal orientation
 #bindsym $mod+h split h
