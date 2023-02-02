@@ -16,8 +16,8 @@ configuration {
 }
 
 /*****----- Global Properties -----*****/
-@import                          "shared/colors-launch.rasi"
-@import                          "shared/fonts-launch.rasi"
+@import                          "shared/colors.rasi"
+@import                          "shared/fonts.rasi"
 
 /*****----- Main Window -----*****/
 window {
@@ -61,7 +61,7 @@ inputbar {
     border:                      0px solid;
     border-radius:               0px;
     border-color:                @selected;
-    background-color:            rgba ( 17, 17, 27, 100 % );
+    background-color:            rgba ( 30, 30, 46, 100 % );
     text-color:                  @foreground;
     children:                    [ "prompt", "entry" ];
 }
@@ -133,11 +133,11 @@ element {
     cursor:                      pointer;
 }
 element normal.normal {
-    background-color:            rgba ( 17, 17, 27, 100 % );
+    background-color:            rgba ( 30, 30, 46, 100 % );
     text-color:                  @foreground;
 }
 element alternate.normal {
-    background-color:            rgba ( 17, 17, 27, 100 % );
+    background-color:            rgba ( 30, 30, 46, 100 % );
     text-color:                  @foreground;
 }
 element selected.normal {
