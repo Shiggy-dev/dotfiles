@@ -34,7 +34,7 @@ window {
     padding:                     0px;
     border:                      0px solid;
     border-radius:               0px;
-    border-color:                @selected;
+    border-color:                rgba ( 203, 166, 255, 100 % );
     background-color:            rgba ( 49, 50, 68, 100 % );
     cursor:                      "default";
 }
@@ -45,9 +45,9 @@ mainbox {
     spacing:                     10px;
     margin:                      0px;
     padding:                     30px;
-    border:                      0px solid;
+    border:                      1px solid;
     border-radius:               0px 0px 0px 0px;
-    border-color:                @selected;
+    border-color:                rgba ( 203, 166, 255, 100 % );
     background-color:            transparent;
     children:                    [ "inputbar", "listview" ];
 }
